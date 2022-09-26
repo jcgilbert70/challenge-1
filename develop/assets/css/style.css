@@ -52,6 +52,9 @@ p {
     font-size: 16px;
 }
 
+/*-------------------------------------------------------
+style code for the large image underneath the header
+---------------------------------------------------------*/
 .hero {
     height: 800px;
     width: 100%;
@@ -61,13 +64,16 @@ p {
     background-position: center;
 }
 
-.content {                                       /*moved this class up in the code*/
+/*-------------------------------------------------------
+beginning of style code "content" on division elements on the left hand side of page beneath the large "hero" image
+---------------------------------------------------------*/
+.content {                                       /*moved this class up in the code from where it was*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.search-engine-optimization {                     /*moved code up to be beneath "content" as it also falls sooner in html*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {                     /*refactored to put all three elements in one line of code instead of 3, also moved code up to be beneath "content" as it also falls sooner in html*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -76,23 +82,6 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {                   /*moved code up to be beneath "content" as it also falls sooner in html*/
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {                      /*moved code up to be beneath "content" as it also falls sooner in html*/
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 .float-left {                                        /*class for positioning images within above classes*/
     float: left;
     margin-right: 25px;
@@ -103,7 +92,10 @@ p {
     margin-left: 25px;
 }
 
-.benefits {                           /*beginning of style code on division elements on the right hand side of page*/
+/*-------------------------------------------------------
+beginning of style code "benefits" on division elements on the right hand side of page
+---------------------------------------------------------*/
+.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -115,74 +107,26 @@ p {
     color: #ffffff;                    /*deleted color code from "benefit-lead", "benefit-brand", and "benefit-cost"*/
 }
 
-.benefit-lead {
+.benefit-lead, .benefit-brand, .benefit-cost{               /*refactored to put all three elements in one line of code instead of 3*/
     margin-bottom: 32px;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-}
-
-.benefit-lead h3 {
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {    /*refactored to put all three elements in one line of code instead of 3*/
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit-lead img, .benefit-brand img, .benefit-cost img {       /*refactored to put all three elements in one line of code instead of 3*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization img {
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img, .search-engine-optimization img {            /*refactored to put all three elements in one line of code instead of 3*/
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {           /*refactored to put all three elements in one line of code instead of 3*/
     margin-bottom: 20px;
     font-size: 36px;
 }
