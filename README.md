@@ -147,11 +147,34 @@ Beginning my README here, (delete all above code when ready to submit)
   - this is the readme
 
 
+---------------------------------------------------------------------------------
 
-This was in the README boiler plate text from the prework: 
+# Challenge-1 Horiseon Webpage Accessibility
+
+## Description
+
+This challege required refactoring of CSS code, as well as bug fixes
+
+## Screenshot
 
 "To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
 ![alt text](assets/images/screenshot.png)"
 
 I was able to get a screenshot to show up by following these instructions. I needed to save the file in the assets folder first.
+
+## Usage
+
+Each section in the Prework Study Guide contains notes about the respective topics, HTML, CSSS, JavaScript, Git, and if we open the DvTools console, we can see the JavaScript running
+
+## Link to Application
+
+*****************
+
+## Credits
+
+N/A
+
+## License
+
+Please refer to the LISCENSE in the repo

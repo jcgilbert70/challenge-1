@@ -37,7 +37,6 @@ body {
     list-style-type: none;
 }
 
-
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -132,7 +131,9 @@ beginning of style code "benefits" on division elements on the right hand side o
 }
 
 .footer {
-    padding: 30px;
+    margin-top: 90px;   /*added a top margin to give contrast break between "benefits" and the footer*/
+    padding: 20px;
+    background-color: #2a607c;  /*added background color to footer same as the header, allows contrast to text in footer for accessibility*/
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
