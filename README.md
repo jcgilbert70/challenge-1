@@ -157,7 +157,7 @@ This challege required refactoring of CSS code, as well as bug fixes
 
 ## Screenshot
 
-![alt text](assets/images/screenshot.png)
+![alt text](assets/images/screenshot.PNG)
 
 ## Usage
 
