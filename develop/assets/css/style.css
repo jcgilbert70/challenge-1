@@ -7,6 +7,7 @@
 body {
     background-color: #d9dcd6;
     color: #ffffff                               /*all text is white*/
+    
 }
 
 .header {
@@ -81,6 +82,15 @@ beginning of style code "content" on division elements on the left hand side of 
     color: #ffffff;
 }
 
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {           /*refactored to put all three elements in one line of code instead of 3*/
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management img, .social-media-marketing img, .search-engine-optimization img {            /*refactored to put all three elements in one line of code instead of 3*/
+    max-height: 200px;
+}
+
 .float-left {                                        /*class for positioning images within above classes*/
     float: left;
     margin-right: 25px;
@@ -119,15 +129,6 @@ beginning of style code "benefits" on division elements on the right hand side o
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img, .search-engine-optimization img {            /*refactored to put all three elements in one line of code instead of 3*/
-    max-height: 200px;
-}
-
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {           /*refactored to put all three elements in one line of code instead of 3*/
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
