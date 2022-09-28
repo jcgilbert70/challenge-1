@@ -153,15 +153,11 @@ Beginning my README here, (delete all above code when ready to submit)
 
 ## Description
 
-This challege required refactoring of CSS code, as well as bug fixes
+This challege required refactoring of CSS code, as well as bug fixes. Code added to create the webpage more accessible
 
 ## Screenshot
 
-![alt text](assets/images/screenshot.PNG)
-
-## Usage
-
-Each section in the Prework Study Guide contains notes about the respective topics, HTML, CSSS, JavaScript, Git, and if we open the DvTools console, we can see the JavaScript running
+![Screenshot](assets/images/screenshot.PNG)
 
 ## Link to Application
 
