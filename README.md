@@ -157,7 +157,7 @@ This challege required refactoring of CSS code, as well as bug fixes. Code added
 
 ## Screenshot
 
-[](assets/images/screenshot.JPG)
+[](assets/images/screenshot.png)
 
 ## Link to Application
 
