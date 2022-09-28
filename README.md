@@ -157,11 +157,7 @@ This challege required refactoring of CSS code, as well as bug fixes
 
 ## Screenshot
 
-"To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)"
-
-I was able to get a screenshot to show up by following these instructions. I needed to save the file in the assets folder first.
+![alt text](assets/images/screenshot.png)
 
 ## Usage
 
