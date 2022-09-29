@@ -55,7 +55,7 @@ p {
 /*-------------------------------------------------------
 style code for the large image underneath the header
 ---------------------------------------------------------*/
-.hero {
+.digital-marketing-meeting {                      /*changed this class from "hero" to "digital-marketing-meeting" to better represent the class*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
